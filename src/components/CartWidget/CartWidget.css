@@ -1,0 +1,12 @@
+.shoppingCartBox {
+    display: flex;
+    align-items:  center;
+
+}
+.cartIcon {
+    margin-right: 5px;
+}
+.cartNumber {
+    color: black;
+    margin: 0 !important;
+}
