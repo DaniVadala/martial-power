@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.itemsContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin: 25px; 
 }
-
-.App-link {
-  color: #61dafb;
+.itemCard {
+ 
+  flex-basis: calc(33.33% - 20px); /* Adjust the percentage value as needed */
+  flex-grow: 1;
+  margin: 10px; /* Add some margin between items */
+  width: 33.33%;
+  text-align: center;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-image {
+  height: 200px;
+  width: fit-content !important;
+  margin: auto;
+  margin-top: 26px;
+}
+.item-price {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.brand-title {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  color: #b13434 !important;
+  text-decoration: none !important;
+}
+.card-body {
+  text-align: center;
+  background: #8080801a !important;
+  width: 100%;
+  margin-top: 10px;
+}
+.martial-spirit-navbar{
+  background-color: #8080801a !important;
+  height: 80px;
+}
+.product-categories-select {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
 }

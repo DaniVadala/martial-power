@@ -1,0 +1,28 @@
+.greeting {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #1E6FA3;
+}
+.card-image {
+    /* height: 200px;
+    margin: 15px;
+    width: auto !important; */
+    height: 200px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 26px;
+}
+
+
+
+.card-box {
+    /* width: '18rem' !important; */
+    align-items: center;
+}
+.add-to-cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

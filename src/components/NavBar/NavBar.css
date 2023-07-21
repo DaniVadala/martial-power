@@ -1,5 +1,10 @@
 .navBarBackground {
-    background-color: #e3f2fd
+    /* background-color: #8080801a;  */
+    /* background-image: linear-gradient(to left, rgb(79 67 67 / 80%), rgba(177, 52, 52, 0)); */
+    background-image: url('https://images.pexels.com/photos/2599543/pexels-photo-2599543.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-position: center;
+    background-size: cover;
+
 }
 .navBarPadding {
     padding: 15px 20px !important;

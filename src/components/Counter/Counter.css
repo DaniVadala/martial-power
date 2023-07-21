@@ -1,0 +1,41 @@
+.counter-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+.counter-button {
+    padding: 5px;
+    background-color: #93bdfc;
+    border: 1px solid #93bdfc;
+    min-width: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.counter-button:hover {
+   
+    background-color: #7aa7eb;
+    border: 1px solid #93bdfc;
+
+}
+.selected-number {
+    min-width: 40px;
+    border-top: 1px solid #93bdfc; 
+    border-bottom:1px solid #93bdfc; ;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.substract-button {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+.add-button {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+}
