@@ -37,7 +37,7 @@ export default function ItemDetailContainer() {
       alert(`Agregaste ${count} productos`)
           setIsAddedToCart(true);
 
-    }
+    }    
     const context = useContext(cartContext);
   return (
     <div className="itemCard">
