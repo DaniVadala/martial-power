@@ -13,7 +13,7 @@ const Item = ({greeting, title, description, img, price, id}) => {
           <Card.Body >
             <Card.Title>{title}</Card.Title>
             <Card.Text>{description}</Card.Text>
-            <Card.Text className="item-price">{price}</Card.Text>
+            <Card.Text className="item-price">${price}</Card.Text>
             <div className='add-to-cart-container'>
             <Link to ={`/product/${id}`}>
                 <Button variant="primary">View Item</Button>

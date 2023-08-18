@@ -1,10 +1,10 @@
-.counter-container {
+.ItemCount-container {
     display: flex;
     justify-content: center;
     margin: 20px;
     align-items: center;
 }
-.counter-button {
+.ItemCount-button {
     padding: 5px;
     background-color: #93bdfc;
     border: 1px solid #93bdfc;
@@ -13,7 +13,7 @@
     font-size: 16px;
     color: white;
 }
-.counter-button:hover {
+.ItemCount-button:hover {
    
     background-color: #7aa7eb;
     border: 1px solid #93bdfc;
@@ -39,3 +39,19 @@
     border-bottom-right-radius: 50%;
     
 }
+.btn {
+    padding: 5px 15px;
+    color: white !important;
+    font-weight: 700 !important;
+    max-width: 160px;
+    background-color: rgb(70, 140, 233) !important;
+    border-radius:  4px; 
+    border: none;
+    margin: 5px 15px;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    box-shadow: 0px 4px 5px #2c2c2c96;
+    background-color: rgb(25, 123, 252) !important;
+  }
